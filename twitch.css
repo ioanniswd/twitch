@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+    
+}
+
+#head {
+    margin-top: 10px;
+    background-color: magenta;
+}
+
+.row {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row img {
+    flex-direction: row;
+    width: 6rem;
+    border-radius: 50%;
+    height: 6rem;
+}
+
+.faded {
+    
+}
+
+.options:hover {
+    cursor: pointer;
+}
+
+.inner {
+    background-color: gray;
+}
+
+.closed {
+    margin: 0 auto;
+}
+
+span {
+    color: yellow;
+    margin-right: 7px;
+}
+
+.options {
+    margin-top: 4px;
+}
+
