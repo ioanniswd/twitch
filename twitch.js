@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	var endpoint = "https://wind-bow.hyperdev.space/twitch-api";
+	var endpoint = "https://wind-bow.gomix.me/twitch-api";
 	
 	function getData(endpoint, channel, divId) {
 		
